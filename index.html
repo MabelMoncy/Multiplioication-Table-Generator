@@ -9,7 +9,7 @@
     <body>
         <div class="container">
             <h1 class="heading">Multiplication Table Generator</h1>
-            <p class="question">Which number's table you want? </p><input type="number" id="mul-number" class="input-box" required>
+            <p class="question">Which number's table you want? </p><input type="number" id="mul-number" class="input-box" placeholder="Enter the number here" required>
             <button class="generate-button" onclick="generate_table(parseInt(document.getElementById('mul-number').value))">Generate</button>
             <div id="result" class="result-div"></div>
         </div>
