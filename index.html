@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="heading">Multiplication Table Generator</h1>
+            <p class="question">Which number's table you want? </p><input type="number" id="mul-number" class="input-box" required>
+            <button class="generate-button" onclick="generate_table(parseInt(document.getElementById('mul-number').value))">Generate</button>
+            <div id="result" class="result-div"></div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
