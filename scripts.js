@@ -8,8 +8,8 @@ function generate_table(mul_number){
     else{
         
         resultDiv.innerHTML = "";
-        for(let i=1;i<10;i++){
-        resultDiv.innerHTML += `<div>${mul_number} * ${i} = ${i*mul_number}</div>`;
+        for(let i=1;i<=10;i++){
+        resultDiv.innerHTML += `<div>${mul_number} x ${i} = ${i*mul_number}</div>`;
         resultDiv.style.color="black";
 }
 
